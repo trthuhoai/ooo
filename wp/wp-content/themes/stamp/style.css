@@ -1,0 +1,495 @@
+/*!
+Theme Name: stamp
+Theme URI: http://support.stamp.ooo
+Author: Kozocom
+Author URI: https://kozo-japan.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: stamp
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+stamp is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@import url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css');
+@import url('//fonts.googleapis.com/css?family=Montserrat:700|Noto+Sans+JP&display=swap');
+@import url('//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+@import url('//fonts.googleapis.com/icon?family=Material+Icons');
+
+html {
+/*
+	font-size: 16px - 1.0rem;
+	12px
+	font-size: .750rem;
+*/
+	font-size: 10px;
+/*
+	13px
+	font-size: .812rem;
+	14px
+	font-size: .875rem;
+	15px
+	font-size: .937rem;
+*/
+}
+body {
+	font-size: 1.4rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #FAFBFE;
+	letter-spacing: -.01em;
+	font-family: Meiryo, "メイリオ" ,Arial,Hiragino Kaku Gothic ProN,Osaka,sans-serif;
+/*	font-family: 'Noto Sans JP', sans-serif;*/
+	color:rgba(0,0,0,.75);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+input.form-control::placeholder,
+select.form-control::placeholder,
+textarea.form-control::placeholder {
+	color:#577381;
+}
+
+a,
+a:hover,
+a:focus {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+
+a:focus,
+*:focus {
+	outline:none;
+}
+
+.form-control:focus {
+	outline: 0;
+	box-shadow:none;
+	border: none;
+}
+
+.navbar {
+	padding: 15px 10px;
+	background: #FFF;
+	color:#000;
+	border: none;
+	border-radius: 0;
+	box-shadow: 0px 0px 35px rgba(154, 161, 174, 0.15);
+}
+
+.navbar-btn {
+	box-shadow: none;
+	outline: none !important;
+	border: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .btn {
+	font-weight: 800;
+}
+
+/* ---------------------------------------------------
+    MATERIAL ICON STYLE
+----------------------------------------------------- */
+
+.material-icons {
+	font-size: 1.0rem;
+	vertical-align: middle;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.btn-orange{
+    background-image: linear-gradient(to right, #f75035 0%, #ff7562 51%, #f75035 100%);
+    color: #fff !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background-size: 200% auto;
+	border-color: #f75035;
+	padding: 1rem 2rem;
+	border-radius: .75rem;
+	font-size:1.5rem;;
+}
+
+.btn-orange:hover{
+    background-color: #ff7562;
+	color:#FFF !important;
+    background-position: right center;
+}
+
+.btn-link{
+	background:#FFF;
+	border-color: #FFF;
+	color:#577381 !important;
+	padding: 1rem 2rem;
+	border-radius: .75rem;
+	font-size:1.5rem;;
+}
+
+.btn-link:hover{
+	background:#F1F4F6;
+	border-color: #F1F4F6;
+}
+
+.fly {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.fly:hover {
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+	width: 250px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	z-index: 999;
+	overflow-y: scroll;
+	background: #FFF;
+	transition: all 0.3s;
+	border-right:1px solid #F1F4F6;
+}
+
+#sidebar .navbar-brand {
+	padding: 15px 15px 0px 50px;
+}
+
+#sidebar .sidebar-header {
+	padding: 0 2.0rem .45rem;
+	margin: 40px 0 20px;
+}
+
+#sidebar ul.components {
+    padding: 0rem 0 2.0rem;
+}
+
+#sidebar ul.components li a {
+	padding: 2.0rem;
+	display: block;
+	text-align: center;
+    margin: 0 1rem;
+    border-radius: 1rem;
+	transition: 0.2s ease;
+}
+
+#sidebar ul.components li a span{
+	display: block;
+}
+#sidebar ul.components li a .sub-cat-ja{
+	color: #000;
+	font-size:1.6rem;
+	font-weight:bold;
+}
+
+#sidebar ul.components li a .sub-cat-en{
+	color: #99AEBA;
+	font-size:1.0rem;
+	font-family:'Montserrat';
+}
+
+#sidebar ul.components li a:hover {
+	background: rgba(241,244,246,1);
+	transition: 0.5s ease;
+}
+
+ul ul a {
+	padding-left: 30px !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+header {
+	overflow: hidden;
+}
+
+
+header .form-inline {
+	padding: 1.0rem;
+	background: #000;
+	border-radius: 2rem;
+	background: #F1F4F6;
+}
+
+header .form-inline:hover,
+header .form-inline:active,
+header .form-inline:focus{
+	background:#FFF;
+}
+
+header .form-inline .input-group-text{
+	background: none;
+	border:none;
+	border-radius: 0;
+}
+
+header .form-inline .input-group-text .material-icons {
+    font-size: 1.6rem;
+}
+
+header .form-inline .form-control{
+	width: 540px;
+	font-size:1.4rem;
+    padding: .375rem .75rem;
+	font-size: 1.6rem;
+    line-height: 1.5;
+    color: #495057;
+	background: none;
+	border:none;
+	border-radius: 0;
+}
+
+
+#content {
+	overflow-y: scroll;
+	background: #F1F4F6;
+	transition: all 0.3s;
+    width: calc(100% - 250px);
+    min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 250px;
+}
+
+#main {
+	margin: 2rem;
+	max-width: 1200px;
+}
+
+.breadcrumb {
+	background-color: #FFF;
+	border-radius: 0;
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	border-top:1px solid #F1F4F6;
+}
+
+.breadcrumb-item {
+	color: #99AEBA;
+}
+
+.breadcrumb-item.active {
+	color: #000;
+	font-weight: bold;
+}
+.page-title{
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.card {
+    border: 1px solid rgba(235,237,248,1);
+    border-radius: 1.5rem;
+	margin-bottom: 2rem;
+    display: block;
+    position: relative;
+}
+
+.card-header{
+	font-weight: bold;
+}
+
+.card-body.card-body-lg {
+	padding:4rem 6rem;
+}
+
+.card-body.card-body-lg h2.card-title{
+	font-size:2.8rem;
+}
+
+.card-body.card-body-md {
+	padding:4rem;
+}
+
+.card-body {
+	padding:2rem;
+    margin: 1rem;
+}
+
+.fly .card-text{
+	color: #99AEBA;
+	font-size: 1.2rem;
+}
+
+.card-body:hover {
+	box-shadow: 0 0 35px 0 rgba(154,161,174,0.15);
+}
+
+.card-content{
+	margin-top: 2rem;
+}
+
+.card-content h3{
+	margin-bottom: 1.5rem;
+}
+
+.card-content h4{
+	margin-bottom: 1.5rem;
+}
+
+.card-content h5{
+	margin-bottom: 1rem;
+}
+
+.card-content p{
+	margin:0 0 2rem 2rem;
+	line-height: 1.8;
+}
+
+.wp-block-file {
+	margin: 0 0 1.5rem 2rem;
+}
+
+.card-content a{
+	text-decoration: underline;
+}
+
+.card-content ul,
+.card-content ol{
+	margin-bottom:2rem;
+}
+
+.card-content ul li,
+.card-content ol li {
+	line-height: 1.8;
+}
+
+.card-content img{
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+.card-content .form-group{
+	margin-bottom: 1.5rem;
+}
+
+.card-content .form-group label{
+	font-weight:bold;
+	font-size: 1.6rem;
+}
+
+.card-content .form-group .form-control{
+	height: calc(4.5rem + 2px);
+	padding: 1.5rem .75rem;
+	font-size: 1.4rem;
+}
+.card-content .form-group .form-check-label{
+	font-size: 1.4rem;
+	margin-left: 10px;
+}
+
+.card-content .form-group textarea.form-control {
+	height: auto;
+}
+#footer_action{
+	display: none;
+}
+
+
+@media (max-width: 768px){
+	.h1, h1 {
+		font-size: 1.6rem;
+	}
+	.h2, h2 {
+		font-size: 1.2rem;
+	}
+	#sidebar{
+		display: none;
+	}
+	#footer_action{
+		display: block;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 10000;
+		width: 100%;
+		overflow: hidden;
+	}
+	#content {
+		overflow-y: scroll;
+	    width:100%;
+	    min-height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#main {
+		margin: 1rem 1rem 5rem;
+		max-width: 100%;
+	}
+	header .form-inline{
+		display: block;
+		width: 100%;
+		padding: .5rem;
+		margin-top:1rem;
+	}
+	header .form-inline .form-control {
+		width: 90%;
+		font-size: 1.2rem;
+	}
+	.page-title {
+		font-size: 1.6rem;
+		margin-bottom: 1rem;
+	}
+	.breadcrumb {
+		font-size:1.0rem;
+	}
+	.card {
+		border-radius: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.card-body.card-body-lg {
+		padding:2rem;
+	}
+
+	.card-body.card-body-lg h2.card-title{
+		font-size:2rem;
+	}
+
+	.card-body.card-body-md {
+		padding:1rem;
+	}
+
+	.card-body {
+		padding:.5rem;
+	    margin: 1rem;
+	}
+
+	.card-content p {
+		margin: 0 0 2rem 0rem;
+		line-height: 1.8;
+		font-size:1.2rem;
+	}
+	.card-content ul {
+		line-height: 1.8;
+		font-size:1.2rem;
+	}
+}

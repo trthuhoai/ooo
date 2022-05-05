@@ -1,0 +1,37 @@
+[Fri Apr 26 10:46:28 2019] [error] [client 118.238.254.4] WordPress \xe3\x83\x87\xe3\x83\xbc\xe3\x82\xbf\xe3\x83\x99\xe3\x83\xbc\xe3\x82\xb9\xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc: Table 'stamp_wp_db.wp_options' doesn't exist for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_key', '0t`a~jaebSYch-4CMa6mZ?<AdpU(m4dRe@N$Et3;wTo&?`3g5+J-I~E$4r*N8fX&', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_can_install_language_pack, WP_Upgrader->fs_connect, Automatic_Upgrader_Skin->request_filesystem_credentials, WP_Upgrader_Skin->request_filesystem_credentials, request_filesystem_credentials, wp_nonce_field, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[Fri Apr 26 10:46:28 2019] [error] [client 118.238.254.4] WordPress \xe3\x83\x87\xe3\x83\xbc\xe3\x82\xbf\xe3\x83\x99\xe3\x83\xbc\xe3\x82\xb9\xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc: Table 'stamp_wp_db.wp_options' doesn't exist for query INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('nonce_salt', '3MFg-tUHDT=e+JKm^eGw[,rhgwQv2)C!A{wys^j]czQhlJ,Z?P/?Jw8~>F9m{;bn', 'no') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`) made by wp_can_install_language_pack, WP_Upgrader->fs_connect, Automatic_Upgrader_Skin->request_filesystem_credentials, WP_Upgrader_Skin->request_filesystem_credentials, request_filesystem_credentials, wp_nonce_field, wp_create_nonce, wp_hash, wp_salt, update_site_option, update_network_option, add_network_option, add_option
+[Fri Apr 26 10:48:22 2019] [error] [client 133.242.164.176] File does not exist: /var/www/vhosts/support.stamp.ooo/2019, referer: http://support.stamp.ooo/2019/04/26/hello-world/
+[Fri Apr 26 10:56:56 2019] [error] [client 3.88.129.158] File does not exist: /var/www/vhosts/support.stamp.ooo/favicon.ico
+[Fri Apr 26 11:02:20 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/favicon.ico, referer: http://support.stamp.ooo/wp-login.php?redirect_to=http%3A%2F%2Fsupport.stamp.ooo%2Fwp-admin%2F&reauth=1
+[Fri Apr 26 11:07:13 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/assets, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:08:35 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/assets, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:08:39 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/assets, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:10:45 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/assets, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:14:30 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/operation, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:15:34 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/contact
+[Fri Apr 26 11:16:17 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/contact
+[Fri Apr 26 11:16:18 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/contact
+[Fri Apr 26 11:16:56 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=2&action=edit
+[Fri Apr 26 11:16:56 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=2&action=edit
+[Fri Apr 26 11:16:56 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=2&action=edit
+[Fri Apr 26 11:17:11 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=8&action=edit
+[Fri Apr 26 11:17:11 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=8&action=edit
+[Fri Apr 26 11:17:11 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=8&action=edit
+[Fri Apr 26 11:17:13 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/contact
+[Fri Apr 26 11:17:18 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp-json, referer: http://support.stamp.ooo/wp-admin/post.php?post=8&action=edit
+[Fri Apr 26 11:17:40 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/demo, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:17:54 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/contact
+[Fri Apr 26 11:18:05 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/operation, referer: http://support.stamp.ooo/?s=aaa
+[Fri Apr 26 11:20:00 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/operation, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:20:02 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/operation, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:20:10 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/category
+[Fri Apr 26 11:20:15 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/operation, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:20:18 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/legal, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:20:26 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/contact, referer: http://support.stamp.ooo/
+[Fri Apr 26 11:24:04 2019] [error] [client 118.238.254.4] File does not exist: /var/www/vhosts/support.stamp.ooo/wp/wp-admin, referer: http://support.stamp.ooo/wp-login.php
+[Fri Apr 26 11:24:27 2019] [error] [client 118.238.254.4] script '/var/www/vhosts/support.stamp.ooo/wp/wp-login.php' not found or unable to stat, referer: http://support.stamp.ooo/wp-admin/options-general.php
+[Wed Nov 17 20:25:22 2021] [error] [client 39.107.236.213] Directory index forbidden by Options directive: /var/www/vhosts/support.stamp.ooo/wp/wp-content/uploads/2019/04/
+[Wed Nov 17 20:25:28 2021] [error] [client 39.107.236.213] Directory index forbidden by Options directive: /var/www/vhosts/support.stamp.ooo/wp/wp-content/uploads/2019/04/
+[Wed Nov 17 20:25:32 2021] [error] [client 39.107.236.213] Directory index forbidden by Options directive: /var/www/vhosts/support.stamp.ooo/wp/wp-content/uploads/2019/05/
+[Wed Nov 17 20:27:48 2021] [error] [client 39.107.236.213] Directory index forbidden by Options directive: /var/www/vhosts/support.stamp.ooo/wp/wp-content/uploads/2019/06/
+[Wed Nov 17 20:27:53 2021] [error] [client 39.107.236.213] Directory index forbidden by Options directive: /var/www/vhosts/support.stamp.ooo/wp/wp-content/uploads/2019/07/
